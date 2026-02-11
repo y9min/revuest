@@ -32,7 +32,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button size="sm" asChild>
-            <a href="#pricing">Start Free Trial</a>
+            <a href="#pricing">Get Started</a>
           </Button>
         </div>
 
