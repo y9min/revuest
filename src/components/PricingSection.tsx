@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 const items = [
-  "Automated SMS & Email Requests",
+  "Automated SMS Requests",
   "Review Reactivation Campaign",
   "Dynamic Follow-Ups",
   "AI Smart Messaging",
