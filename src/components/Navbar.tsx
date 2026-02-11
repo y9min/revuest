@@ -60,7 +60,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button size="sm" className="w-full" asChild>
-            <a href="#pricing" onClick={() => setOpen(false)}>Start Free Trial</a>
+            <a href="#pricing" onClick={() => setOpen(false)}>Get Started</a>
           </Button>
         </div>
       )}
