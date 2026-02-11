@@ -26,7 +26,7 @@ jobs:
       - name: Commit package-lock.json
         uses: EndBug/add-and-commit@v9
         with:
-          message: chore: regenerate package-lock.json via workflow
+          message: "chore: regenerate package-lock.json via workflow"
           add: package-lock.json
           author_name: github-actions[bot]
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
