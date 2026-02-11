@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import revuestLogo from "@/assets/revuest-logo.png";
 
 const navLinks = [
   { label: "How It Works", href: "#how-it-works" },
@@ -15,8 +16,8 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <a href="#" className="text-xl font-bold text-primary tracking-tight">
-          Revuest
+        <a href="#" className="flex items-center">
+          <img src={revuestLogo} alt="Revuest" className="h-8" />
         </a>
 
         {/* Desktop */}
