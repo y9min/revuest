@@ -8,9 +8,7 @@ const items = [
   "Dynamic Follow-Ups",
   "AI Smart Messaging",
   "Auto AI Review Replies",
-  "Social Media Posting",
   "CRM Integration",
-  "Zapier Access",
   "Unlimited Users",
   "1-1 Setup Support",
 ];
@@ -22,13 +20,11 @@ const PricingSection = () => (
 
       <Card className="border-2 border-primary shadow-lg">
         <CardHeader className="text-center pb-2">
-          <CardTitle className="text-2xl">Growth Plan</CardTitle>
-          <CardDescription>For growing service businesses</CardDescription>
+          <CardTitle className="text-2xl">Pro Package</CardTitle>
         </CardHeader>
         <CardContent className="text-center">
-          <p className="text-sm text-muted-foreground font-medium mb-1">50–100 Review Requests Per Month</p>
           <p className="text-4xl font-bold text-foreground mb-6">
-            £179 <span className="text-base font-normal text-muted-foreground">/ month</span>
+            £199 <span className="text-base font-normal text-muted-foreground">/ month</span>
           </p>
 
           <ul className="text-left space-y-3 mb-8">
@@ -40,7 +36,7 @@ const PricingSection = () => (
             ))}
           </ul>
 
-          <Button size="lg" className="w-full">Start Free Trial</Button>
+          <Button size="lg" className="w-full">Get Started</Button>
         </CardContent>
       </Card>
     </div>
